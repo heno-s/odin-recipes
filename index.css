@@ -1,0 +1,25 @@
+.cnt {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.recipe {
+    text-align: center;
+    background-color: rgb(204, 204, 204);
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+
+.recipe + .recipe {
+    margin-top: 10px;
+}
+
+.recipe > a {
+    color: #0000ff;
+}
+
+.recipe > :is(a:hover, a:visited) {
+    text-decoration: none;
+    color: #5555ff;
+}
